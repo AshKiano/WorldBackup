@@ -1,0 +1,14 @@
+name: WorldBackup
+version: '${project.version}'
+main: com.ashkiano.worldbackup.WorldBackup
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  backup:
+    description: Backs up the specified world
+    usage: /backup <world>
+    permission: worldbackup.backup
+permissions:
+  worldbackup.backup:
+    description: Allows the user to create a world backup
+    default: op
