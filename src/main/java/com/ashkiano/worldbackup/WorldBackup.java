@@ -19,6 +19,7 @@ public class WorldBackup extends JavaPlugin {
     public void onEnable() {
         getLogger().info("WorldBackup has been enabled.");
         Metrics metrics = new Metrics(this, 22409);
+        this.getLogger().info("Thank you for using the WorldBackup plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
